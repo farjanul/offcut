@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0e0f12;
+  --panel: #16181d;
+  --panel2: #1d2027;
+  --line: #2a2e37;
+  --text: #e6e8ec;
+  --muted: #8b919d;
+  --accent: #22d3c5;
+}
+html, body { height: 100%; margin: 0; background: var(--bg); color: var(--text); overflow: hidden; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; min-width: 1100px; }
+* { box-sizing: border-box; }
+button { cursor: pointer; }
+input[type="range"] { accent-color: var(--accent); }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #333844; border-radius: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border-radius: 6px; background: var(--panel2); border: 1px solid var(--line); color: var(--text); }
+.btn:hover:not(:disabled) { background: #272b35; }
+.btn:disabled { opacity: .4; cursor: default; }
+.btn-primary { background: var(--accent); color: #04211f; border-color: transparent; font-weight: 600; }
+.btn-primary:hover:not(:disabled) { background: #3be3d6; }
+.field { width: 100%; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; color: var(--text); }
