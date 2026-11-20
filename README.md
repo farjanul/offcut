@@ -1,6 +1,6 @@
 <div align="center">
 
-# Offcut
+# Offcut - Online browser based video editor
 
 **A free, offline video editor that runs entirely in your browser.**
 Cut, layer, colour-grade and export — your files never leave your computer.
